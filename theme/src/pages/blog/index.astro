@@ -19,7 +19,11 @@ const posts = await Astro.glob('./posts/*.mdx').then(posts =>
 			excerpt: frontmatter.excerpt,
 			href: url,
 		}))
-		.sort((a, b) => a.firstname.localeCompare(b.firstname))
+		.sort((a, b) => {
+			if (isBefore(a.title, b.title)) return 1;
+			if (isBefore(b.title, a.title)) return -1;
+			return 0;
+		})
 );
 
 const seo = {
