@@ -37,8 +37,7 @@
 		sans-serif;
 }
 
-[data-theme='default'] {
-	color-scheme: light;
+[data-theme='light'] {
 	/* Theme Colors */
 	--theme-primary: hsl(0, 0%, 0%);
 	--theme-primary-hover: hsl(0, 0%, 20%);
@@ -92,7 +91,8 @@
 	--form-field-input-color: var(--theme-on-bg);
 }
 
-[data-theme='earth'] {
+[data-theme='default'] {
+        color-scheme: light;
 	/* Theme Colors */
 	--theme-primary: #2c3e2d;
 	--theme-primary-hover: #395a3b;
