@@ -3,7 +3,7 @@ import { Container } from '@littlesticks/odyssey-theme-components';
 import Layout from './Page.astro'; 
 import { generateTagData } from '../utils/helpers';
 
-const {content: {name, description, birthDate, canonicalURL, featuredImage, tags} } = Astro.props;
+const {content: {title, firstName, description, publishDate, canonicalURL, featuredImage, tags} } = Astro.props;
 
 let allTagsData = [];
 
@@ -12,9 +12,9 @@ if(tags && tags.length > 0){
 }
 
 const seo = {
-	name,
+	title,
 	description,
-  birthDate,
+  publishDate,
 	canonicalURL,
 	image: featuredImage,
 };
@@ -30,11 +30,11 @@ const seo = {
         </li>
       ))}
     </ul>
-    <h1>{name}</h1>
+    <h1>{first Name} {title}</h1>
     <p class="post-layout__date">
-      <time><em>{birthDate}</em></time>
+      <time><em>{publishDate}</em></time>
     </p>
-    {featuredImage && <img class="post-layout__img" src={featuredImage} alt={name} />}
+    {featuredImage && <img class="post-layout__img" src={featuredImage} alt={firstName} {title} />}
   </div>
   <Container narrow>  
     <article id="article">
