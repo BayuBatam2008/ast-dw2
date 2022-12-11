@@ -16,8 +16,8 @@ const seo = {
 	<style>
   .youtube-embed__container {
     margin-bottom: 1rem;
-    aspect-ratio: 4/3;
-    border-radius: 0.25rem;
+    aspect-ratio: 5/4;
+    border-radius: 0.5rem;
     overflow: hidden;
     z-index: 1;
   }
@@ -27,10 +27,10 @@ const seo = {
     height: 100%;
   }
 
-  @supports not (aspect-ratio: 4 / 3) {
+  @supports not (aspect-ratio: 5 / 4) {
     .youtube-embed__container {
       position: relative;
-      padding-bottom: 75%;
+      padding-bottom: 80%;
       padding-top: 30px;
       height: 0;
       overflow: hidden;
