@@ -14,16 +14,12 @@ const posts = await Astro.glob('./posts/*.mdx').then(posts =>
 			title: frontmatter.title,
                         firstName: frontmatter.firstName,
 			description: frontmatter.description,
-			publishDate: parse(frontmatter.publishDate, 'd MMMM yyyy', new Date()),
+			publishDate: parse(frontmatter.publishDate, 'MMMM d, yyyy', new Date()),
 			featuredImage: frontmatter.featuredImage,
 			excerpt: frontmatter.excerpt,
 			href: url,
 		}))
-		.sort((a, b) => {
-			if (isBefore(a.firstName, b.firstName)) return 1;
-			if (isBefore(b.firstName, a.firstName)) return -1;
-			return 0;
-		})
+		.sort((a, b) => a.firstName.localeCompare(b.firstName))
 );
 
 const seo = {
