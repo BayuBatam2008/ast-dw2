@@ -11,10 +11,10 @@ import NewsletterForm from '../../components/forms/NewsletterForm.astro';
 const posts = await Astro.glob('./posts/*.mdx').then(posts =>
 	posts
 		.map(({ frontmatter, url }) => ({
-			name: frontmatter.title,
+			title: frontmatter.name,
+                        firstName: frontmatter.firstName,
 			description: frontmatter.description,
-			authors: frontmatter.authors,
-			birthDate: parse(frontmatter.publishDate, 'd MMMM yyyy', new Date()),
+			publishDate: parse(frontmatter.birthDate, 'd MMMM yyyy', new Date()),
 			featuredImage: frontmatter.featuredImage,
 			excerpt: frontmatter.excerpt,
 			href: url,
@@ -27,23 +27,20 @@ const posts = await Astro.glob('./posts/*.mdx').then(posts =>
 );
 
 const seo = {
-	title: 'Blog | Astro Odyssey Theme',
-	description: 'Astro Odyssey Theme Blog Page',
+	title: 'Daftar Siswa | 9A (XV)',
+	description: 'Daftar Siswa Kelas 9A (Angkatan 15)',
 };
 ---
 
 <Layout {seo}>
 	<Container>
 		<TextCardSection>
-			<h1>Oydssey Blog</h1>
+			<h1>Daftar Siswa</h1>
 			<p>
-				View our blog to stay up to date on the latest news about our business.
-				Want to be the first to hear about a new blog post? Join our newsletter!
+				Daftar Siswa/Siswi Kelas 9A Beserta Informasi-informasi (Yang Mereka Berikan).
 			</p>
-			<NewsletterForm />
 		</TextCardSection>
 		<section class="blog-posts-list__section">
-			<h2>Recent Posts</h2>
 			<BlogPostsList posts={posts} />
 		</section>
 	</Container>
