@@ -41,15 +41,19 @@ const seo = {
     }
   }
 </style>
-
-<div
-  class={`youtube-embed__container`}
->
-  <iframe
-    src={`https://game-scratch.vercel.app`}
-    title="Super Mario"
-    frameborder="0"
-  >
-  </iframe>
-</div>
+        <Container>
+		<TextCardSection>
+			<h1>Games</h1>
+			<p>
+				Mainkan Game-game Yang Kami Buat Disini!
+                                <i>Pakai Keyboard Ya!</i>
+			</p>
+		</TextCardSection>
+		<section>
+			<h2>Super Mario</h2>
+			<div class={`youtube-embed__container`}>
+                         <iframe src={`https://game-scratch.vercel.app`} title="Super Mario" frameborder="0"></iframe>
+                        </div>
+		</section>
+	</Container>
 </Layout>
