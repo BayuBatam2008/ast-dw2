@@ -14,9 +14,6 @@ const seo = {
   .youtube-embed__container {
     margin-bottom: 1rem;
     aspect-ratio: 1/1;
-  }
-
-  .youtube-embed__container--rounded {
     border-radius: 0.25rem;
     overflow: hidden;
     z-index: 1;
@@ -46,9 +43,7 @@ const seo = {
 </style>
 
 <div
-  class={`youtube-embed__container ${
-    rounded && `youtube-embed__container--rounded`
-  }`}
+  class={`youtube-embed__container`}
 >
   <iframe
     src={`https://game-scratch.vercel.app`}
