@@ -13,7 +13,10 @@ const seo = {
 	<style>
   .youtube-embed__container {
     margin-bottom: 1rem;
-    aspect-ratio: 16/9;
+    aspect-ratio: 1/1;
+  }
+
+  .youtube-embed__container--rounded {
     border-radius: 0.25rem;
     overflow: hidden;
     z-index: 1;
@@ -24,10 +27,10 @@ const seo = {
     height: 100%;
   }
 
-  @supports not (aspect-ratio: 16 / 9) {
+  @supports not (aspect-ratio: 1 / 1) {
     .youtube-embed__container {
       position: relative;
-      padding-bottom: 56.25%;
+      padding-bottom: 100%;
       padding-top: 30px;
       height: 0;
       overflow: hidden;
@@ -43,7 +46,9 @@ const seo = {
 </style>
 
 <div
-  class={`youtube-embed__container`}
+  class={`youtube-embed__container ${
+    rounded && `youtube-embed__container--rounded`
+  }`}
 >
   <iframe
     src={`https://game-scratch.vercel.app`}
