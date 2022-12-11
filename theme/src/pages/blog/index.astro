@@ -11,10 +11,10 @@ import NewsletterForm from '../../components/forms/NewsletterForm.astro';
 const posts = await Astro.glob('./posts/*.mdx').then(posts =>
 	posts
 		.map(({ frontmatter, url }) => ({
-			title: frontmatter.name,
+			title: frontmatter.title,
                         firstName: frontmatter.firstName,
 			description: frontmatter.description,
-			publishDate: parse(frontmatter.birthDate, 'd MMMM yyyy', new Date()),
+			publishDate: parse(frontmatter.publishDate, 'd MMMM yyyy', new Date()),
 			featuredImage: frontmatter.featuredImage,
 			excerpt: frontmatter.excerpt,
 			href: url,
