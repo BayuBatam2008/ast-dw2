@@ -1,5 +1,5 @@
 ---
-import { Container, FeatureCard } from '@littlesticks/odyssey-theme-components';
+import { Container, FeatureCard, TextCardSection } from '@littlesticks/odyssey-theme-components';
 
 import Layout from '../layouts/Page.astro';
 import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro';
@@ -8,19 +8,13 @@ import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro'
 <Layout>
 	<HomeHeroSection />
 	<Container>
-		<section class="feature-card__section">
-			<h2>Landing Pages</h2>
+		<TextCardSection>
+			<h1>Siapa Kami?</h1>
 			<p>
-				Use one of our landing pages to jumpstart your website or
-				ad campaign.
+				Mainkan Game-game Yang Kami Buat Disini!
+                                <i>Pakai Keyboard Ya!</i>
 			</p>
-			<div class="feature-card__grid">
-				<FeatureCard href="/landing-pages/landing-1" title="Landing Page 1" imgSrc="/assets/images/home/screenshots/landing-1">
-				</FeatureCard>
-				<FeatureCard href="/landing-pages/landing-2" title="Landing Page 2" imgSrc="/assets/images/home/screenshots/landing-2">
-				</FeatureCard>
-			</div>
-		</section>
+		</TextCardSection>
 	</Container>
 
 	<Container>
