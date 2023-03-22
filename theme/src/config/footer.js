@@ -9,7 +9,7 @@ export const footerSocials = [
 export const footerLists = [
         {
         title: 'Home',
-        slug: '/',
+        slug: 'https://dw2.papale.my.id',
         },
 	{
 		title: 'SPMP',
