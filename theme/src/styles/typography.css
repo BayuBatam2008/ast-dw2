@@ -29,7 +29,7 @@
   font-family: 'Whitney';
   font-style: normal;
   font-weight: 300;
-  src: url('/assets/fonts/whitney-light.otf') format('otf'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+  src: url('/assets/fonts/whitney-light.otf') format('opentype'), /* Chrome 36+, Opera 23+, Firefox 39+ */
 }
 /* whitney-book-regular - latin */
 @font-face {
@@ -37,7 +37,7 @@
   font-family: 'Whitney';
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/whitney-book.otf') format('otf'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+  src: url('/assets/fonts/whitney-book.otf') format('opentype'), /* Chrome 36+, Opera 23+, Firefox 39+ */
 }
 /* whitney-semibold-regular - latin */
 @font-face {
@@ -45,7 +45,7 @@
   font-family: 'Whitney';
   font-style: normal;
   font-weight: 700;
-  src: url('/assets/fonts/whitney-semibold.otf') format('otf'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+  src: url('/assets/fonts/whitney-semibold.otf') format('opentype'), /* Chrome 36+, Opera 23+, Firefox 39+ */
 }
 /* whitney-semibold-italic - latin */
 @font-face {
@@ -53,7 +53,7 @@
   font-family: 'Whitney';
   font-style: italic;
   font-weight: 700;
-  src: url('/assets/fonts/Whitney-SemiboldItalic.otf') format('otf'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+  src: url('/assets/fonts/Whitney-SemiboldItalic.otf') format('opentype'), /* Chrome 36+, Opera 23+, Firefox 39+ */
 }
 :root {
   --font-size-sm: clamp(14.4px, 0.07vw + 14.13px, 15px);
