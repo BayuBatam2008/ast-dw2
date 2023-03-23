@@ -2,13 +2,13 @@
 	/* Theme Colors */
 	--theme-primary: #5865f2;
 	--theme-primary-hover: hsl(0, 0%, 90%);
-	--theme-on-primary: hsl(0, 0%, 0%);
+	--theme-on-primary: #ffffff;
 
 	--theme-bg: #36393f;
 	--theme-on-bg: #ffffff;
 
 	--theme-surface-1: hsl(0, 0%, 20%);
-	--theme-on-surface-1: hsl(0, 0%, 100%);
+	--theme-on-surface-1: #ffffff;
 
 	--theme-surface-2: #203422;
 	--theme-on-surface-2: #ffffff;
