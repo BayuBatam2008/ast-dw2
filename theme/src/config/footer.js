@@ -11,15 +11,15 @@ export const footerLists = [
 		title: 'SPMP',
 		items: [
 			{
-				title: 'General',
+				title: '#general',
 				slug: '/landing-pages/landing-1',
 			},
 			{
-				title: 'Meeting',
+				title: '#meeting',
 				slug: '/landing-pages/landing-2',
 			},
                         {
-			 	title: 'Laporan',
+			 	title: '#laporan',
 			 	slug: '/landing-pages/landing-3',
 		        },
 		],
