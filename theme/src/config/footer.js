@@ -29,15 +29,15 @@ export const footerLists = [
 		items: [
 			{
 				title: 'AST Community',
-				slug: '/landing-pages/landing-1',
+				slug: 'https://discord.gg/T95avb7F4w',
 			},
 			{
 				title: 'SPF Community',
-				slug: '/landing-pages/landing-2',
+				slug: 'https://discord.gg/pkvSWBVdYa',
 			},
                         {
 			 	title: 'SGP Community',
-			 	slug: '/landing-pages/landing-3',
+			 	slug: 'https://discord.gg/XszYCYJnTQ',
 		        },
 		],
 	},
