@@ -2,9 +2,9 @@
   https://google-webfonts-helper.herokuapp.com/fonts/lato?subsets=latin
 */
 
-/* roboto-serif-600 - latin */
+/* abc-ginto-normal-medium - latin */
 @font-face {
-  font-family: 'Roboto Serif';
+  font-family: 'ABC Ginto Normal';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -12,9 +12,9 @@
        url('/assets/fonts/ABCGintoNormal-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/assets/fonts/ABCGintoNormal-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* roboto-serif-700 - latin */
+/* abc-ginto-normal-bold - latin */
 @font-face {
-  font-family: 'Roboto Serif';
+  font-family: 'ABC Ginto Normal';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -22,9 +22,9 @@
        url('/assets/fonts/ABCGintoNormal-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/assets/fonts/ABCGintoNormal-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* lato-300 - latin */
+/* whitney-light - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Whitney';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -32,9 +32,9 @@
        url('/assets/fonts/Whitney-Light.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/assets/fonts/Whitney-Light.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* lato-regular - latin */
+/* whitney-medium - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Whitney';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -42,9 +42,9 @@
        url('/assets/fonts/Whitney-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/assets/fonts/Whitney-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* lato-700 - latin */
+/* whitney-semibold - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Whitney';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -52,9 +52,9 @@
        url('/assets/fonts/Whitney-Semibold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/assets/fonts/Whitney-Semibold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* lato-700italic - latin */
+/* whitney-semibold-italic - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Whitney';
   font-style: italic;
   font-weight: 700;
   font-display: swap;
