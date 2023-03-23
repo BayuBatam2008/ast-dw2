@@ -1,31 +1,65 @@
 export const footerSocials = [
   {
     name: 'Github',
-    url: 'https://github.com/BayuBatam2008/ast-dw2',
+    url: 'https://github.com/BayuBatam2008/9a-v2',
     icon: "mdi:github",
   },
 ]
 
 export const footerLists = [
-        {
-        title: 'Home',
-        slug: 'https://dw2.papale.my.id',
-        },
 	{
-		title: 'SPMP',
+		title: 'Landing Pages',
 		items: [
 			{
-				title: 'General',
+				title: 'Landing Page 1',
+				slug: '/landing-pages/landing-1',
+			},
+			{
+				title: 'Landing Page 2',
+				slug: '/landing-pages/landing-2',
+			},
+      // {
+			// 	title: 'Landing Page 3',
+			// 	slug: '/landing-pages/landing-3',
+			// },
+		],
+	},
+	{
+		title: 'Company',
+		items: [
+			{
+				title: 'About',
 				slug: '/company/about',
 			},
 			{
-				title: 'Meeting',
+				title: 'Blog',
 				slug: '/blog',
 			},
 			{
-				title: 'Laporan',
+				title: 'Contact',
 				slug: '/company/contact',
 			},
+		],
+	},
+	{
+		title: 'Theme',
+		items: [
+			{
+				title: 'Get Started',
+				slug: '/theme/get-started',
+			},
+			{
+				title: 'Style Guide',
+				slug: '/theme/style-guide',
+			},
+      {
+        title: 'Theme Setup',
+        slug: '/theme/theme-setup',
+      },
+      {
+        title: 'Customizing Odyssey',
+        slug: '/theme/customizing-odyssey',
+      }
 		],
 	},
 ];
