@@ -11,8 +11,8 @@ Website ini berisi kode website DW2
 - Hosted in Vercel
 > https://vercel.com
 
-- Whitney Fonts by
-> https://
+- Whitney Fonts by Hoefler&Co.
+> https://www.typography.com/fonts/whitney/overview
 
-- ABC Ginto Normal by
-> https://
+- ABC Ginto Normal by Dinamo
+> https://abcdinamo.com/typefaces/ginto
