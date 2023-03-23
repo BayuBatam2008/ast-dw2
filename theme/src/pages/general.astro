@@ -7,8 +7,8 @@ import Layout from '../layouts/Page.astro';
 import HeroSection from '../components/sections/heros/HeroSection.astro';
 
 const seo = {
-	title: 'Games | 9A (XV)',
-	description: 'Games Page',
+	title: '#general | DW2',
+	description: 'Channel #general',
 };
 ---
 
@@ -16,7 +16,7 @@ const seo = {
 	<style>
   .youtube-embed__container {
     margin-bottom: 1rem;
-    aspect-ratio: 6/5;
+    aspect-ratio: 9/16;
     border-radius: 0.5rem;
     overflow: hidden;
     z-index: 1;
@@ -27,10 +27,10 @@ const seo = {
     height: 100%;
   }
 
-  @supports not (aspect-ratio: 6 / 5) {
+  @supports not (aspect-ratio: 9 / 16) {
     .youtube-embed__container {
       position: relative;
-      padding-bottom: 83.33%;
+      padding-bottom: 177.77%;
       padding-top: 30px;
       height: 0;
       overflow: hidden;
@@ -46,22 +46,14 @@ const seo = {
 </style>
         <Container>
 		<TextCardSection>
-			<h1>Games</h1>
+			<h1>#general</h1>
 			<p>
-				Mainkan Game-game Yang Kami Buat Disini!
-                                <i>Pakai Keyboard Ya!</i>
+				Disinilah terjadi konversasi antara intelijen SPMP. Disini para intelijen memikirkan taktik dan mencari bukti.
 			</p>
 		</TextCardSection>
 		<section>
-			<h2>Super Mario</h2>
 			<div class={`youtube-embed__container`}>
-                         <iframe src={`https://game-scratch.vercel.app`} title="Super Mario" frameborder="0"></iframe>
-                        </div>
-		</section>
-                <section>
-			<h2>Labirin</h2>
-			<div class={`youtube-embed__container`}>
-                         <iframe src={`https://game-scratch.vercel.app/labirin-gio.html`} title="Super Mario" frameborder="0"></iframe>
+                         <iframe src={`https://dw2.palpale.my.id`} title="#general" frameborder="0" sandbox></iframe>
                         </div>
 		</section>
 	</Container>
