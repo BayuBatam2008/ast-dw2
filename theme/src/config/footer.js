@@ -12,20 +12,41 @@ export const footerLists = [
 		items: [
 			{
 				title: '#general',
-				slug: '/general',
+				slug: '/ast/general',
 			},
 			{
 				title: '#meeting',
-				slug: '/meeting',
+				slug: '/ast/meeting',
 			},
                         {
 			 	title: '#laporan',
-			 	slug: '/laporan',
+			 	slug: '/ast/laporan',
+		        },
+		],
+        },
+	{
+		title: 'SPF/PB',
+		items: [
+			{
+				title: '#general-staff',
+				slug: '/spf/general-staff',
+			},
+			{
+				title: '#command-staff',
+				slug: '/spf/command-staff',
+			},
+                        {
+			 	title: '#server-logs',
+			 	slug: '/spf/server-logs',
+		        },
+                        {
+			 	title: '#moderation-logs',
+			 	slug: '/spf/moderation-logs',
 		        },
 		],
         },
         {
-		title: 'Server Yg Terlibat',
+		title: 'Server Discord',
 		items: [
 			{
 				title: 'AST Community',
