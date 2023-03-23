@@ -1,6 +1,6 @@
 :root {
 	/* Theme Colors */
-	--theme-primary: hsl(0, 0%, 100%);
+	--theme-primary: #5865f2;
 	--theme-primary-hover: hsl(0, 0%, 90%);
 	--theme-on-primary: hsl(0, 0%, 0%);
 
