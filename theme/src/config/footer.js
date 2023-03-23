@@ -23,6 +23,7 @@ export const footerLists = [
 			 	slug: '/landing-pages/landing-3',
 		        },
 		],
+        },
 		title: 'Server Yg Terlibat',
 		items: [
 			{
