@@ -22,41 +22,45 @@
        url('/assets/fonts/roboto-serif-v8-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/assets/fonts/roboto-serif-v8-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* whitney-light-regular - latin */
 @font-face {
-    font-family: 'Whitney';
-    src: url('assets/fonts/Whitney-Light.woff2') format('woff2'),
-        url('assets/fonts/Whitney-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Whitney';
+  src: local(''),
+       url('assets/fonts/Whitney-Light.woff2') format('woff2'),
+       url('assets/fonts/Whitney-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-
+/* whitney-semibold-regular - latin */
 @font-face {
-    font-family: 'Whitney';
-    src: url('assets/fonts/Whitney-Semibold.woff2') format('woff2'),
-        url('assets/fonts/Whitney-Semibold.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Whitney';
+  src: local(''),
+       url('assets/fonts/Whitney-Semibold.woff2') format('woff2'),
+       url('assets/fonts/Whitney-Semibold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-
+/* whitney-medium-regular - latin */
 @font-face {
-    font-family: 'Whitney';
-    src: url('assets/fonts/Whitney-Medium.woff2') format('woff2'),
-        url('assets/fonts/Whitney-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Whitney';
+  src: local(''),
+       url('assets/fonts/Whitney-Medium.woff2') format('woff2'),
+       url('assets/fonts/Whitney-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-
+/* whitney-semibold-italic - latin */
 @font-face {
-    font-family: 'Whitney';
-    src: url('assets/fonts/Whitney-SemiboldItalic.woff2') format('woff2'),
-        url('assets/fonts/Whitney-SemiboldItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Whitney';
+  src: local(''),
+       url('assets/fonts/Whitney-SemiboldItalic.woff2') format('woff2'),
+       url('assets/fonts/Whitney-SemiboldItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
 }
 :root {
   --font-size-sm: clamp(14.4px, 0.07vw + 14.13px, 15px);
