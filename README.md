@@ -5,8 +5,8 @@ Website ini berisi kode website DW2
 > https://dw2.papale.my.id
 
 ## Credit
-- Odyssey Theme by littlesticksdev
-> https://github.com/
+- Odyssey Theme by littlesticks
+> https://github.com/littlesticks/odyssey-theme
 
 - Hosted in Vercel
 > https://vercel.com
