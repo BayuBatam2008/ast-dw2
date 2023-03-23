@@ -70,7 +70,7 @@
 	--theme-blog-post-header-width: 1200px;
 }
 
-[data-theme='dark'] {
+[data-theme='default'] {
 	color-scheme: dark;
 	/* Theme Colors */
 	--theme-primary: hsl(0, 0%, 100%);
@@ -91,7 +91,7 @@
 	--form-field-input-color: var(--theme-on-bg);
 }
 
-[data-theme='default'] {
+[data-theme='earth'] {
         color-scheme: light;
 	/* Theme Colors */
 	--theme-primary: #2c3e2d;
