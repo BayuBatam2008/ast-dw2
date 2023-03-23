@@ -24,6 +24,7 @@ export const footerLists = [
 		        },
 		],
         },
+        {
 		title: 'Server Yg Terlibat',
 		items: [
 			{
