@@ -12,15 +12,15 @@ export const footerLists = [
 		items: [
 			{
 				title: '#general',
-				slug: '/ast/general',
+				slug: '/spmp/general',
 			},
 			{
 				title: '#meeting',
-				slug: '/ast/meeting',
+				slug: '/spmp/meeting',
 			},
                         {
 			 	title: '#laporan',
-			 	slug: '/ast/laporan',
+			 	slug: '/spmp/laporan',
 		        },
 		],
         },
