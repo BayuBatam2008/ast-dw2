@@ -22,45 +22,95 @@
        url('/assets/fonts/ABCGintoNormal-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/assets/fonts/ABCGintoNormal-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* whitney-light - latin */
+/* ggsans-extrabolditalic - latin */
 @font-face {
-  font-family: 'Whitney';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: local(''),
-       url('/assets/fonts/Whitney-Light.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/Whitney-Light.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* whitney-medium - latin */
-@font-face {
-  font-family: 'Whitney';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(''),
-       url('/assets/fonts/Whitney-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/Whitney-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* whitney-semibold - latin */
-@font-face {
-  font-family: 'Whitney';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('/assets/fonts/Whitney-Semibold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/Whitney-Semibold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* whitney-semibold-italic - latin */
-@font-face {
-  font-family: 'Whitney';
+  font-family: 'gg sans';
   font-style: italic;
-  font-weight: 700;
+  font-weight: bold;
   font-display: swap;
   src: local(''),
-       url('/assets/fonts/Whitney-SemiboldItalic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/Whitney-SemiboldItalic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/assets/fonts/ggsans-ExtraBoldItalic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-ExtraBoldItalic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ggsans-bold - latin */
+@font-face {
+  font-family: 'gg sans';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: local(''),
+       url('/assets/fonts/ggsans-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ggsans-extrabold - latin */
+@font-face {
+  font-family: 'gg sans';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: local(''),
+       url('/assets/fonts/ggsans-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ggsans-semibold - latin */
+@font-face {
+  font-family: 'gg sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('/assets/fonts/ggsans-Semibold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-Semibold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ggsans-normalitalic - latin */
+@font-face {
+  font-family: 'gg sans';
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: local(''),
+       url('/assets/fonts/ggsans-NormalItalic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-NormalItalic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ggsans-medium - latin */
+@font-face {
+  font-family: 'gg sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('/assets/fonts/ggsans-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ggsans-mediumitalic - latin */
+@font-face {
+  font-family: 'gg sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('/assets/fonts/ggsans-MediumItalic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-MediumItalic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ggsans-normal - latin */
+@font-face {
+  font-family: 'gg sans';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local(''),
+       url('/assets/fonts/ggsans-Normal.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-Normal.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ggsans-semibolditalic - latin */
+@font-face {
+  font-family: 'gg sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('/assets/fonts/ggsans-SemiboldItalic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/assets/fonts/ggsans-SemiboldItalic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 :root {
   --font-size-sm: clamp(14.4px, 0.07vw + 14.13px, 15px);
