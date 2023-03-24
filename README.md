@@ -11,7 +11,7 @@ Website ini berisi kode website DW2
 - Hosted in Vercel
 > https://vercel.com
 
-- Whitney Fonts by Discord
+- gg sans Fonts by Discord
 > https://discord.com
 
 - ABC Ginto Normal by Dinamo
